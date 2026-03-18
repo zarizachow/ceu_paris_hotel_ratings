@@ -1,3 +1,55 @@
-# Mac system files
+# -----------------------------
+# macOS / OS metadata
+# -----------------------------
 .DS_Store
 **/.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Python bytecode / caches
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+.env/
+
+# -----------------------------
+# Packaging / build artifacts
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Jupyter / notebooks
+# -----------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Optional: notebook outputs (uncomment if you don't want charts embedded)
+# **/*.nbconvert.ipynb
+
+# -----------------------------
+# IDEs / editors
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Local data / outputs (keep tracked assets if needed)
+# -----------------------------
+# If you want to keep generated figures out of git, uncomment:
+# outputs/
